@@ -1,0 +1,71 @@
+.btn-primary
+{
+    background-color: #27DEBF;
+    border: 0;
+    padding: 15px 40px 15px 40px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.btn-primary:hover
+{
+    background-color: rgb(31, 194, 167);
+    border: 0;
+}
+.lintangdev h1
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #455A64;
+}
+.lintangdev h2
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #455A64;
+}
+.lintangdev p
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #455A64;
+}
+
+.nav-item a
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #455A64;
+}
+
+@media (min-width: 576px)
+{  
+    .top-image{
+        margin-top: 30px !important;
+    }
+}
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link {
+    color: #27DEBF;
+}
+
+.title::before
+{
+ content: '';
+ border-radius: 10px;
+ background: #27DEBF;
+ height: 5px;
+ width: 50px;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+ transform: translateY(63px);
+}
+
+.card{
+    border-radius: 10px;
+}
+
+
