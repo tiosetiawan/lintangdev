@@ -12,6 +12,19 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+      var OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+        OneSignal.init({
+          appId: "301d488e-9d90-4be0-8137-fa2fe31e5055",
+          notifyButton: {
+            enable: true,
+          },
+        });
+      });
+    </script>
+
 </head>
 <body>
 
